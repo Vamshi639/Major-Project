@@ -6,4 +6,4 @@ input = st.text_input('Enter your review:')
 output = model.predict([input])
 ans = output[0]
 if st.button('Predict'):
-  st.title(output[0])
+  st.title(output[0]) 
