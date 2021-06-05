@@ -1,6 +1,5 @@
 import streamlit as st
 import joblib
-import sys
 model = joblib.load('Sentiment_Analyzer')
 st.title('Sentiment Analyzer')
 input = st.text_input('Enter your review:')
