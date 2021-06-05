@@ -3,7 +3,7 @@ import joblib
 model = joblib.load('Sentiment_Analyzer')
 st.title('Sentiment Analyzer')
 input = st.text_input('Enter your review:')
-bad_reviews = ['bad','worse','worst','very bad','substandard','poor','inferior','second rate','second class','unsatisfactory'
+bad_reviews = ['bad','worse','worst','very bad','not good','not better','not best','substandard','poor','inferior','second rate','second class','unsatisfactory'
                 ,'inadequate','unacceptable','not up to scratch','not up to par','deficient','imperfect','defective','faulty'
                 ,'shoddy','amateurish','careless','negligent','dreadful','awful','terrible','abominable','frightful','atrocious'
                 ,'disgraceful','deplorable','hopeless','worthless','laughable','lamentable','miserable','sorry','thirdrate'
